@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Adirects_SDK"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of Adirects_SDK."
+  s.version      = "0.0.2"
+  s.summary      = "爱投视频广告SDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -90,9 +90,9 @@ Pod::Spec.new do |s|
   #
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  # s.exclude_files = "Adirects_SDK/Adirects_SDK.framework"
+  s.exclude_files = "Adirects_SDK/Adirects_SDK.framework"
 
-  # s.public_header_files = "Classes/**/*.h"
+  #s.public_header_files = "Adirects_SDK/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -104,7 +104,6 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Adirects_SDK/Adirects_SDK.framework"
   s.resources = "Adirects_SDK/images.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
