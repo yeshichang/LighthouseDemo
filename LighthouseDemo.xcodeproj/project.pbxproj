@@ -518,6 +518,7 @@
 					"$(PROJECT_DIR)/Adirects_SDK",
 				);
 				INFOPLIST_FILE = LighthouseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adirects.www.LighthouseSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -535,6 +536,7 @@
 					"$(PROJECT_DIR)/Adirects_SDK",
 				);
 				INFOPLIST_FILE = LighthouseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adirects.www.LighthouseSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
